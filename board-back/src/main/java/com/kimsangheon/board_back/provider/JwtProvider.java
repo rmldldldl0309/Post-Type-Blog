@@ -28,6 +28,7 @@ public class JwtProvider {
             .compact();
 
         return jwt;
+
     }
 
     public String validate(String jwt) {
@@ -45,6 +46,7 @@ public class JwtProvider {
         }
 
         return claims.getSubject();
+        
     }
 
 }
