@@ -13,7 +13,7 @@ import lombok.Setter;
 @Getter@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class favoriteEntity {
+public class FavoriteEntity {
     
     @Id
     private String userEmail;

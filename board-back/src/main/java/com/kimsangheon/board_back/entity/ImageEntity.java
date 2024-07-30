@@ -19,6 +19,7 @@ public class ImageEntity {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer sequence;
     private Integer boardNumber;
     private String image;
 
