@@ -25,6 +25,7 @@ public class UserEntity {
     private String address;
     private String addressDetail;
     private String profileImage;
+    private boolean agreedPersonal;
 
     public UserEntity(SignUpRequestDto dto) throws Exception {
 
@@ -34,6 +35,7 @@ public class UserEntity {
         this.telNumber = dto.getTelNumber();
         this.address = dto.getAddress();
         this.addressDetail = dto.getAddressDetail();
+        this.agreedPersonal = dto.getAgreedPersonal();
 
     }
 

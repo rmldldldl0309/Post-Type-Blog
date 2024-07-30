@@ -3,6 +3,7 @@ package com.kimsangheon.board_back.entity.pk;
 import java.io.Serializable;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.IdClass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
