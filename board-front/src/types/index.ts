@@ -17,14 +17,14 @@ export interface FavoriteListItem {
 
     email: string;
     nickname: string;
-    profileImage: string;
+    profileImage: string | null;
 
 }
 
 export interface CommentListItem {
 
     nickname: string;
-    profileImage: string;
+    profileImage: string | null;
     writeDatetime: string;
     content: string;
 
